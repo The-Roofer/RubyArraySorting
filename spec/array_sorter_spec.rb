@@ -8,4 +8,8 @@ describe ArraySorter do
         expect(true).to eql true
     end
 
+    it "Sorts [2,3,1]" do
+    expect(@sorter.sort([2,3,1])).to eql [1,2,3]
+    end
+
 end
