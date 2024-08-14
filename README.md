@@ -7,3 +7,9 @@ You may use any language / testing framework.
 ## Instructions
 ### Running tests
 Include info here about how to run your tests.
+
+
+# Updates
+## Added Insertion Sort
+### WIP
+ - Make current key a different color so visualize the sort
