@@ -16,7 +16,6 @@ Type Rspec -f d from directory
 
 
 ## Added bubblesort gif
- - ![BubbleSort GIF](https://ibb.co/ZXdw3cm)
  - <img src="https://i.ibb.co/MSnjbP6/bubblesort.gif">
 
 
