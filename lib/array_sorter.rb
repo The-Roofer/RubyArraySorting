@@ -9,6 +9,7 @@ RESET = "\e[0m"
 class ArraySorter
 
   def bubblesort array
+
     swap = true
     while swap
       swap=false
@@ -19,15 +20,16 @@ class ArraySorter
             array[index+1] = var
             array[index] = temp
             printarray(array,var)
-            # sleep 1
-            # system('cls')
+            sleep 1
+            system('cls')
           end
         end
         
       end
     return array
 
-  end
+  end #end bubblesort
+
 
   def insertionsort array
 
@@ -65,6 +67,7 @@ class ArraySorter
 
   def printarray(array,swapper)
 
+    puts "Sorting Array with Bubble Sort"
     array.each do |var|
       if var == swapper
       print "#{GREEN}#{swapper} #{RESET}"

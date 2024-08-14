@@ -13,3 +13,7 @@ Include info here about how to run your tests.
 ## Added Insertion Sort
 ### WIP
  - Make current key a different color so visualize the sort
+
+
+## Added bubblesort gif
+ - ![Alt text](https://ibb.co/ZXdw3cm)
