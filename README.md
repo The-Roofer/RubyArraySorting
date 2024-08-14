@@ -6,7 +6,7 @@ You may use any language / testing framework.
 
 ## Instructions
 ### Running tests
-Include info here about how to run your tests.
+Type Rspec -f d from directory
 
 
 # Updates
@@ -17,7 +17,7 @@ Include info here about how to run your tests.
 
 ## Added bubblesort gif
  - ![BubbleSort GIF](https://ibb.co/ZXdw3cm)
- - <img src="https://ibb.co/ZXdw3cm">
+ - <img src="https://i.ibb.co/MSnjbP6/bubblesort.gif">
 
 
  
