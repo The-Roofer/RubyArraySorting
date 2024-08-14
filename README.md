@@ -16,7 +16,7 @@ Include info here about how to run your tests.
 
 
 ## Added bubblesort gif
- - ![Alt text](https://ibb.co/ZXdw3cm)
+ - <img src="https://ibb.co/ZXdw3cm" alt="Click here for BubbleSort Gif!" width="400" height="300">
 
- <img src="https://ibb.co/ZXdw3cm" alt="Alt text" width="400" height="300">
+ 
 
