@@ -29,6 +29,38 @@ class ArraySorter
 
   end
 
+  def insertionsort array
+
+    array.each_with_index do |var,index| 
+        if index == 0
+
+          next
+
+        elsif var < array[index-1]
+
+          key = var
+          insertPosition = index
+
+          while insertPosition > 0 && array[insertPosition - 1 ] > key     # while loop shifts element down
+
+            array[insertPosition] = array[insertPosition-1]
+            insertPosition -= 1
+            printarray(array,key)
+
+          end #end while loop
+
+          array[insertPosition] = key
+
+        end #elsifs
+  
+      end #end .each do
+      
+      return array
+
+
+  end #end insertionsort
+
+
 
 
   def printarray(array,swapper)
