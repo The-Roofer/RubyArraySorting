@@ -16,7 +16,8 @@ Include info here about how to run your tests.
 
 
 ## Added bubblesort gif
- - ![](https://ibb.co/ZXdw3cm)
+ - ![BubbleSort GIF](https://ibb.co/ZXdw3cm)
+ - <img src="https://ibb.co/ZXdw3cm">
 
 
  
