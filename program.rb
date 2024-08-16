@@ -4,6 +4,7 @@ sorter = Array_Sorter.new
 system('cls')
 puts "Do you want to view the [B]ubble Sort or the [I]nsertion Sort?"
 response = gets.chomp.to_s.downcase
+system('cls')
 
 if response[0] == 'b'
   test_array= [rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21)]
@@ -28,18 +29,27 @@ if response[0] == 'b'
 
 
 elsif response[0] == 'i'
-system('cls')
+#system('cls')
 #test_array = [rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21)]
-test_array = [3,2,1,4]
+test_array = [3,2,7,4,1,1,2,4,5]
 saved_test_array = test_array.dup
+system('cls')
 
-test_array=sorter.insertionsort(test_array)
 
-print "\nStarting array: "
+print "Starting array: \n"
   saved_test_array.each do |num|
     print num.to_s+" "
   end
+sleep 3
+puts
 
+test_array=sorter.insertionsort(test_array)
+
+print "Starting array: "
+  saved_test_array.each do |num|
+    print num.to_s+" "
+  end
+puts
 print "\nEnding Array: "
   test_array.each do |num|
   print num.to_s+" "
