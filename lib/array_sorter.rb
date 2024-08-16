@@ -216,9 +216,18 @@ class Array_Sorter
 
   puts "\nInserts number into insertion point\n\n\n"
   sleep 2
+
   end
 
   def insertionsort array
+    intial_array = array.dup
+
+    puts "Initial Array"
+    intial_array.each do |var|
+      print "#{RED}#{var.to_s} #{RESET}"
+    end
+    sleep 2
+
     array.each_with_index do |var,index| 
       arraydup = array.dup
         if index == 0
@@ -252,7 +261,19 @@ class Array_Sorter
         end #elsifs
         
       end #end .each do
+
+      system('cls')
+      puts "Initial Array"
+      intial_array.each do |var|
+        print "#{RED}#{var.to_s} #{RESET}"
+      end
+      puts
+      puts "Sorted Array"
+      array.each do |var|
+        print "#{GREEN}#{var.to_s} #{RESET}"
+      end
       
+      sleep 5
       return array
       
       

@@ -1,24 +1,11 @@
-# array-sorting
-## Assignment
-Make a unit-tested class/function that will sort arrays for you. For example, given an array that looks like `[2,3,1]`, the function should return the sorted array: `[1,2,3]`
-
-You may use any language / testing framework.
-
-## Instructions
-### Running tests
-Type Rspec -f d from directory
-
-
+# Array-Sorting Program
 # Updates
-## Added Insertion Sort
-### WIP
- - Make current key a different color so visualize the sort
+## Added Insertion Sort .gif
+ - <img src="https://i.ibb.co/3d8vC2d/insertionsortgif.gif">
 
-
-## Added bubblesort gif
-
+## Added bubblesort .gif
  - <img src="https://i.ibb.co/MSnjbP6/bubblesort.gif">
 
 
- 
-
+ ### Running tests
+Type Rspec -f d from directory

@@ -31,28 +31,9 @@ if response[0] == 'b'
 elsif response[0] == 'i'
 #system('cls')
 #test_array = [rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21)]
-test_array = [3,2,7,4,1,1,2,4,5]
+test_array = [8,4,1,3,0]
 saved_test_array = test_array.dup
 system('cls')
-
-
-print "Starting array: \n"
-  saved_test_array.each do |num|
-    print num.to_s+" "
-  end
-sleep 3
-puts
-
 test_array=sorter.insertionsort(test_array)
-
-print "Starting array: "
-  saved_test_array.each do |num|
-    print num.to_s+" "
-  end
-puts
-print "\nEnding Array: "
-  test_array.each do |num|
-  print num.to_s+" "
-end
 
 end
