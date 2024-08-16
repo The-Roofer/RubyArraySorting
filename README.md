@@ -1,9 +1,9 @@
 # Array-Sorting Program
 # Updates
-## Added Insertion Sort .gif
+## Added Insertion Sort Animation
  - <img src="https://i.ibb.co/3d8vC2d/insertionsortgif.gif">
 
-## Added bubblesort .gif
+## Added bubblesort animation
  - <img src="https://i.ibb.co/MSnjbP6/bubblesort.gif">
 
 
