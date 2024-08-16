@@ -1,13 +1,9 @@
 RED = "\e[31m"
 GREEN = "\e[32m"
-YELLOW = "\e[33m"
-BLUE = "\e[34m"
-MAGENTA = "\e[35m"
 CYAN = "\e[36m"
 RESET = "\e[0m" 
 
 TESTING = false
-
 
 class Array_Sorter
 
@@ -95,7 +91,6 @@ class Array_Sorter
     puts "\n\nFinds unsorted number\n\n\n"
     sleep 2
 
-    #gets
     system('cls')
     print_banner
 
@@ -117,7 +112,6 @@ class Array_Sorter
       end
     end
 
-    
     puts
     
     shadow_array.each_with_index do |element,index|     #makes a mostly empty array called shadow array that only has the key in it
@@ -129,13 +123,10 @@ class Array_Sorter
       end
     end
     puts "\nPops it out and stores as a temp\n\n\n"
-    #gets
-    
     
     sleep 2
     system('cls')
     print_banner
-    
     
     for i in (indexofkey).downto(offset+1)
       if i != 0
@@ -150,7 +141,7 @@ class Array_Sorter
       if index <= indexofkey
         print "#{GREEN}#{var.to_s} #{RESET}"
       else
-      print var.to_s+" "
+        print var.to_s+" "
       end
     end
     
@@ -164,9 +155,9 @@ class Array_Sorter
       end
       
     end
+
     puts "\nCompares key to sorted elements to find insertion point\n\n\n"
     sleep 2
-    #gets
     
     system('cls')
     print_banner
@@ -174,12 +165,10 @@ class Array_Sorter
     shadow_array[offset] = key_value
     shadow_array[indexofkey] = " "
    
-    
     string_array.each_with_index do |pos,index|
       if index <= indexofkey
         print "#{GREEN}#{pos.to_s} #{RESET}"
       else
-
       print pos.to_s + " "           
       end
     end
@@ -189,12 +178,9 @@ class Array_Sorter
     shadow_array.each_with_index do |element,index|
       if index==offset
         print "#{CYAN}#{element.to_s} #{RESET}"
-        #shadow_array[index] = indexofkey.to_s
       else
         print element.to_s + " "
-
       end
-
     end
 
     puts "\nShifts unsorted number over to insertion point\n\n\n"
@@ -220,9 +206,10 @@ class Array_Sorter
   end
 
   def insertionsort array
-    intial_array = array.dup
 
+    intial_array = array.dup
     puts "Initial Array"
+
     intial_array.each do |var|
       print "#{RED}#{var.to_s} #{RESET}"
     end
@@ -276,10 +263,6 @@ class Array_Sorter
       sleep 5
       return array
       
-      
   end #end insertionsort
     
-  
-    
 end #end class _
-

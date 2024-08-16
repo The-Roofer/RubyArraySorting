@@ -29,11 +29,8 @@ if response[0] == 'b'
 
 
 elsif response[0] == 'i'
-#system('cls')
-#test_array = [rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21),rand(21)]
+  
 test_array = [8,4,1,3,0]
-saved_test_array = test_array.dup
-system('cls')
 test_array=sorter.insertionsort(test_array)
 
 end
